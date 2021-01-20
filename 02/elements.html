@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/elements.css">
     <link rel="stylesheet" href="./css/header.css">
 </head>
 <body>
@@ -37,14 +37,31 @@
                 </ul>
             </nav>
         </div>
-
-        <div class="banner-title">
-            <h1>Welcome to Theory</h1>
-        <p>A free responsive HTML5 website template by TEMPLATED.</p>
-        </div>
     </header>
 
+    <form action="">
+        <input type="text" placeholder="Name"  required>
+        <input type="text" placeholder="Emal" required>
+        <select>
+            <option value="0">-Category-</option>
+            <option value="1">Manufacturing</option>
+            <option value="2">Shipping</option>
+            <option value="3">Administration</option>
+            <option value="4">Human Resorces</option>
+        </select>
 
+        <label for="Low Priority">Low Priority</label>
+        <input type="radio" name="priority" id="Low Priority" value="Low Priority">
+
+        <label for="Normal Priority">Normal Priority</label>
+        <input type="radio" name="priority" id="Normal Priority" value="Normal Priority">
+
+        <label for="High Priority">High Priority</label>
+        <input type="radio" name="priority" id="High Priority" value="High Priority">
+        
+
+        <input type="checkbox">
+    </form>
 
     <footer>
         <div class="container">
