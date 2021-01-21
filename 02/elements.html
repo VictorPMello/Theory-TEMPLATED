@@ -40,9 +40,9 @@
     </header>
 
     <form action="">
-        <input type="text" placeholder="Name"  required>
-        <input type="text" placeholder="Emal" required>
-        <select>
+        <input type="text" placeholder="Name"  required class="w50">
+        <input type="text" placeholder="Emal" required class="w50">
+        <select class="w100">
             <option value="0">-Category-</option>
             <option value="1">Manufacturing</option>
             <option value="2">Shipping</option>
@@ -59,8 +59,15 @@
         <label for="High Priority">High Priority</label>
         <input type="radio" name="priority" id="High Priority" value="High Priority">
         
+        <label for="check1">Email me a copy of this message</label>
+        <input type="checkbox" id="check1">
+        <label for="check2">I am a human and not a robot</label>
+        <input type="checkbox" id="check2" checked>
 
-        <input type="checkbox">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+
+        <input type="submit" class="btn1" value="Send Message">
+        <input type="reset" class="btn1" value="Reset">
     </form>
 
     <footer>
