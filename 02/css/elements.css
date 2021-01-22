@@ -1,3 +1,7 @@
+.clear{
+    clear: both;
+}
+
 /** Estilos do header **/ 
 header{
     background-color: #5385c1;
@@ -42,6 +46,89 @@ nav ul li a{
 nav ul li a:hover{
     font-size: 1.8rem;
     color: rgba(255, 255, 255, 1);
+}
+/*****/
+
+.description-title{
+    padding: 1.5rem 0 5rem;
+    text-align: center;
+}
+
+.description-title h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 3.8rem;
+    color: #5385c1;
+    padding-bottom: 2rem;
+}
+
+.description-title p{
+    font-size: 1.8rem;
+    color: #BBBBBB;
+}
+
+/** Estilos do form **/
+form{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    border: 1px solid black;
+}
+
+.form-wraper{
+    float: left;
+    padding:  0 2rem;
+    margin-top: 3rem;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+
+form input[type=text],
+select{
+    background-color: rgba(235, 235, 235, 0.61);
+    padding: 1.2rem;
+    border: 1px solid #BBBBBB;
+    width: 100%;
+}
+
+form input[type=text]::placeholder,
+select{
+    color:  #666666b9;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.radio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=radio]{
+   width: 2.4rem;
+   height: 2.4rem;
+   background-color: rgb(41, 26, 8);
+   color: black;
+}
+
+input[type=radio],
+.radio label{
+    cursor: pointer;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.radio-box{
+    color:  #666666b9;
+    font-weight: 100;
+    font-size: 2.5rem;
 }
 /*****/
 
