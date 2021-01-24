@@ -256,29 +256,34 @@ input[type=reset]:hover{
         }
 
         nav.mobile{
-            display: flex;
-            justify-content: space-between;
+            display: block;
+            position: relative;
             width: 100%;
-            position: initial;
-            padding-top: 2rem;
-        }
-        
-        nav h1{
-            position: initial;
         }
 
+        nav .mobile-text h1{
+            display: inline-block;
+            padding-top: 1.5rem;
+            top: 0;
+            left: 0;
+        }
+
+
         nav i{
+            position: absolute;
+            top: 0;
+            right: 0;
             cursor: pointer;
             color: white;
             font-size: 2rem;
-            padding-top: .7rem;
+            padding-top: 1.5rem;
         }
         
         nav ul{
             display: none;
             justify-content: none;
             position: initial;
-            width: 100%;
+            width: 88vw;
             text-align: center;
             background-color: white;
         }
@@ -295,6 +300,12 @@ input[type=reset]:hover{
         nav ul li a{
             font-size: 2rem;
             color: #5385c1;
+        }
+
+        nav ul li a:hover{
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: #144a8b;
         }
        
         .form-wraper{
